@@ -1,6 +1,11 @@
 import styles from './RefundSupport.module.css';
 
+import { useState } from 'react';
+
+import AllTransactions from './AllTransactions';
+
 const RefundSupport = () => {
+  const [allTransaction, setAllTransaction] = useState(false);
   return (
     <div className={styles.refundContainer}>
       <h1>Refund Support</h1>
@@ -54,7 +59,21 @@ const RefundSupport = () => {
               </div>
             </div>
           </div>
-          <button className={styles.submitButton}>SUBMIT</button>
+          <button
+            onClick={() => {
+              setAllTransaction(true);
+            }}
+            className={styles.submitButton}
+          >
+            SUBMIT
+          </button>
+          {allTransaction && (
+            <AllTransactions
+              onClick={() => {
+                setAllTransaction(false);
+              }}
+            />
+          )}
         </form>
       </div>
     </div>
