@@ -69,6 +69,36 @@ const AllTransactions = ({ ...props }) => {
             condition="Success"
             amount="+ QAR 41.01"
           />
+          <p>2 Aug, 2020</p>
+          <TransactionFormat
+            icon={thirdTransaction}
+            name="Ahmed Emad"
+            info="Cash pickup"
+            condition="Success"
+            amount="QAR 41.01"
+          />
+          <TransactionFormat
+            icon={fourthTransaction}
+            name="Ahmed Samir"
+            info="Wallet"
+            condition="Success"
+            amount="+ QAR 41.01"
+          />
+          <p>2 Aug, 2020</p>
+          <TransactionFormat
+            icon={thirdTransaction}
+            name="Ahmed Emad"
+            info="Cash pickup"
+            condition="Success"
+            amount="QAR 41.01"
+          />
+          <TransactionFormat
+            icon={fourthTransaction}
+            name="Ahmed Samir"
+            info="Wallet"
+            condition="Success"
+            amount="+ QAR 41.01"
+          />
         </div>
       </div>
     </>,

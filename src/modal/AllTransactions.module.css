@@ -137,7 +137,12 @@
   width: 88%;
   height: 90%;
   margin-top: 10px;
+  padding-bottom: 30px;
   overflow-y: scroll;
+}
+
+.recordTables::-webkit-scrollbar {
+  display: none;
 }
 
 .recordTables p {
