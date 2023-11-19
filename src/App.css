@@ -1,0 +1,50 @@
+.profile-nav {
+  height: 100%;
+  background-color: #f8f8f8;
+  position: fixed;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transition-duration: 500ms;
+  z-index: 5;
+}
+
+.profile-nav.open {
+  left: 0;
+  width: 422px;
+}
+
+.profile-nav.close {
+  left: -422px;
+}
+
+.button {
+  height: 50px;
+  width: 300px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.logoutButton {
+  all: unset;
+  width: 171px;
+  height: 34px;
+  background-color: #443e2a;
+  border: 1px solid #443e2a;
+  border-radius: 12px;
+  cursor: pointer;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 600;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 35px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

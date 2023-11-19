@@ -1,0 +1,38 @@
+.container {
+  border: 1px solid #e8e8e8;
+  width: 80%;
+  height: 20%;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+}
+
+.container summary {
+  cursor: pointer;
+  color: #1a1818;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 4px;
+  margin-left: 6px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2px;
+  padding-right: 8px;
+}
+
+.container img {
+  height: 24px;
+  width: 24px;
+}
+
+.container p {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-left: 6px;
+  color: #484646;
+}

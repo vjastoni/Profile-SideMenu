@@ -1,0 +1,31 @@
+.box {
+  width: 593px;
+  height: 76px;
+  border: 1px solid #e9af00;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 12px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.box img {
+  width: 24px;
+  height: 24px;
+}
+
+.boxWrapper p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.boxWrapper p:nth-child(2) {
+  font-size: 12px;
+  font-weight: 400;
+  color: #484646;
+}

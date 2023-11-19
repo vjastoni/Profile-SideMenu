@@ -1,0 +1,38 @@
+.settingsContainer {
+  width: 353px;
+  height: 76px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settingsImage img {
+  margin-left: 8px;
+}
+
+.rightArrow {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.settingInfo {
+  display: flex;
+  justify-content: start;
+  width: 70%;
+  flex-direction: column;
+}
+
+.settingInfo p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1818;
+}
+
+.settingInfo p:nth-child(2) {
+  font-size: 14px;
+  font-weight: 400;
+  color: #767474;
+}

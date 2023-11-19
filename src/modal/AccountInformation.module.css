@@ -1,0 +1,150 @@
+.accountInfoContainer {
+  background-color: #ffffff;
+  width: 90%;
+  height: 80vh;
+  position: absolute;
+  align-self: self-end;
+  overflow: hidden;
+  z-index: 10;
+  left: 50%;
+  top: 58%;
+  transform: translate(-50%, -50%);
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.accountInfoContainer h1 {
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0;
+  margin-left: 30px;
+  align-self: self-start;
+}
+
+.form {
+  width: 77%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  align-items: center;
+  padding-right: 70px;
+  justify-content: space-between;
+}
+
+.radioGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1a1818;
+  margin-top: 10px;
+}
+
+.radioButton {
+  width: 343px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 14px;
+  padding-right: 14px;
+  border: 1px solid #ffc000;
+  border-radius: 8px;
+}
+
+.firstColumn {
+  width: 38%;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 70px;
+  gap: 8px;
+}
+
+.firstColumn p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1a1818;
+}
+
+.gray {
+  background-color: #e8e8e8;
+}
+
+[type='text'],
+[type='email'] {
+  width: 343px;
+  height: 48px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border: 1px solid #ffc000;
+  border-radius: 8px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #1a1818;
+  gap: 2px;
+  align-items: center;
+  justify-content: start;
+}
+
+.wrapper p:nth-child(2) {
+  font-size: 12px;
+  color: #9f9f9f;
+  font-weight: 400;
+}
+
+.select {
+  width: 343px;
+  height: 48px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border: 1px solid #ffc000;
+  border-radius: 8px;
+}
+
+.secondColumn {
+  width: 40%;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: start;
+  gap: 10px;
+}
+#nationality {
+  margin-top: 30px;
+}
+.secondColumn p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1a1818;
+}
+
+.saveButton {
+  all: unset;
+  cursor: pointer;
+  width: 110px;
+  height: 40px;
+  border-radius: 12px;
+  border: 1px solid #ffc000;
+  text-align: center;
+  background-color: #ffc000;
+  align-self: self-end;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 12px;
+  margin-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}

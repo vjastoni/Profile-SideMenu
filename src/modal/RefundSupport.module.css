@@ -1,0 +1,149 @@
+.refundContainer {
+  background-color: #ffffff;
+  width: 90%;
+  height: 80vh;
+  position: absolute;
+  align-self: self-end;
+  overflow: hidden;
+  z-index: 10;
+  left: 50%;
+  top: 58%;
+  transform: translate(-50%, -50%);
+  padding: 26px;
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.refundContainer h1 {
+  font-size: 30px;
+  font-weight: 600;
+  align-self: self-start;
+}
+
+.form {
+  display: flex;
+  width: 80%;
+  height: 100%;
+  justify-content: start;
+  align-items: start;
+}
+
+form {
+  width: 100%;
+}
+
+.technicalContainer p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1a1818;
+}
+.firstCol,
+.secCol {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.colWrapper {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.colWrapper input {
+  width: 343px;
+  height: 46px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border: 1px solid #ffc000;
+  border-radius: 8px;
+}
+
+select {
+  width: 343px;
+  height: 48px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border: 1px solid #ffc000;
+  border-radius: 8px;
+}
+
+textarea {
+  width: 809px;
+  height: 140px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border: 1px solid #ffc000;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding-top: 14px;
+  resize: none;
+}
+
+.feedback {
+  align-self: flex-start;
+  margin-top: 10px;
+}
+
+.submitButton {
+  all: unset;
+  cursor: pointer;
+  width: 160px;
+  height: 50px;
+  border-radius: 12px;
+  border: 1px solid #ffc000;
+  text-align: center;
+  background-color: #ffc000;
+  align-self: self-end;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 90px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.addWrapper {
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.addWrapper p {
+  text-align: center;
+}
+
+.fileType {
+  all: unset;
+  border: 1px solid #ffc000;
+  display: flex;
+  height: 10px;
+  padding-top: 18px;
+  padding-bottom: 26px;
+  padding-left: 14px;
+  width: 180px;
+  border-radius: 19px;
+  text-align: center;
+  background-color: #d9d9d9;
+  font-size: 12px;
+}
+
+.sendTicket {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.sendTicket label {
+  font-size: 14px;
+  font-weight: 500;
+}

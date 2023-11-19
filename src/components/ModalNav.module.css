@@ -1,0 +1,58 @@
+.faqsNav {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.faqsBack {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  cursor: pointer;
+}
+
+.faqsBack img {
+  width: 44px;
+  height: 46px;
+}
+
+.faqsBack p {
+  text-decoration: underline;
+  color: #e9af00;
+}
+
+.faqsIcon {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.faqsIcon img {
+  width: 179px;
+  height: 70px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.faqsRoutes {
+  width: 40%;
+}
+
+.faqsRoutes nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 60px;
+  margin-right: 60px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
