@@ -83,7 +83,7 @@ const NavBarSettings = () => {
         <Setting image={NoteIcon} name="Limitations & Threshold" description="" />
       </NavLink>
       <NavLink
-        to="/chargesandfees"
+        to="chargesandfees"
         style={({ isActive }) => ({
           backgroundColor: isActive ? '#fff2cc' : undefined,
           textDecoration: isActive ? 'none' : 'none',
