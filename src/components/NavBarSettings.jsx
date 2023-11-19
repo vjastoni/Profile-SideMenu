@@ -20,7 +20,7 @@ const NavBarSettings = () => {
         description="sed do eiusmod tempor incididunt."
       />
       <NavLink
-        to="/settings"
+        to="settings"
         style={({ isActive }) => ({
           backgroundColor: isActive ? '#fff2cc' : undefined,
           textDecoration: isActive ? 'none' : 'none',
