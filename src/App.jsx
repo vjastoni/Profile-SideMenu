@@ -15,7 +15,7 @@ import HelpCenterPage from './pages/HelpCenterPage.jsx';
 function App() {
   const router = createBrowserRouter([
     {
-      path: '/',
+      path: '/profile-sidemenu',
       element: <RootLayout />,
       errorElement: <NotFound />,
       children: [
