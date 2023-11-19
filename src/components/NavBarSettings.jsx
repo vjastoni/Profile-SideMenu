@@ -45,7 +45,7 @@ const NavBarSettings = () => {
         description="sed do eiusmod tempor incididunt."
       />
       <NavLink
-        to="/helpcenter"
+        to="helpcenter"
         style={({ isActive }) => ({
           backgroundColor: isActive ? '#fff2cc' : undefined,
           textDecoration: isActive ? 'none' : 'none',
@@ -59,7 +59,7 @@ const NavBarSettings = () => {
         />
       </NavLink>
       <NavLink
-        to="/faqs"
+        to="faqs"
         style={({ isActive }) => ({
           backgroundColor: isActive ? '#fff2cc' : undefined,
           textDecoration: isActive ? 'none' : 'none',
@@ -73,7 +73,7 @@ const NavBarSettings = () => {
         />
       </NavLink>
       <NavLink
-        to="/limitationsandthreshold"
+        to="limitationsandthreshold"
         style={({ isActive }) => ({
           backgroundColor: isActive ? '#fff2cc' : undefined,
           textDecoration: isActive ? 'none' : 'none',
@@ -93,7 +93,7 @@ const NavBarSettings = () => {
         <Setting image={NoteIcon} name="Charges & Fees" description="" />
       </NavLink>
       <NavLink
-        to="/termsandcondition"
+        to="termsandcondition"
         style={({ isActive }) => ({
           backgroundColor: isActive ? '#fff2cc' : undefined,
           textDecoration: isActive ? 'none' : 'none',
@@ -103,7 +103,7 @@ const NavBarSettings = () => {
         <Setting image={NoteIcon} name="Terms and Conditions" description="" />
       </NavLink>
       <NavLink
-        to="/privacypolicy"
+        to="privacypolicy"
         style={({ isActive }) => ({
           backgroundColor: isActive ? '#fff2cc' : undefined,
           textDecoration: isActive ? 'none' : 'none',
