@@ -8,11 +8,11 @@ import SuccessIcon from '../assets/SuccessIcon.png';
 const SuccessPasswordChange = ({ ...props }) => {
   return createPortal(
     <>
-      <div className={styles.otpBackdrop} {...props} />
+      <div className={styles.successBackdrop} {...props} />
       <div className={styles.successContainer}>
         <img src={CWalletIcon2} />
         <h1>
-          You’ve successfully <br></br> changed your <br></br> Password
+          You’ve successfully <br></br> changed your <br></br> PIN Number
         </h1>
         <img src={SuccessIcon} />
       </div>

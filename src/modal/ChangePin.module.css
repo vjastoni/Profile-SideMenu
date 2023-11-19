@@ -1,7 +1,7 @@
-.otpBackdrop {
+.changePinBackdrop {
   width: 100vw;
   height: 100vh;
-  z-index: 20;
+  z-index: 40;
   backdrop-filter: blur(10px);
   position: absolute;
   left: 0;
@@ -12,13 +12,13 @@
   cursor: pointer;
 }
 
-.otpContainer {
-  width: 560px;
-  height: 490px;
+.changePinContainer {
+  width: 30%;
+  height: 67%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 16px;
   position: absolute;
-  z-index: 30;
+  z-index: 60;
   background-color: #ffffff;
   left: 0;
   right: 0;
@@ -30,7 +30,7 @@
   align-items: center;
 }
 
-.otpExitNav {
+.changePinExitNav {
   display: flex;
   flex-direction: row;
   height: 46px;
@@ -42,7 +42,7 @@
   margin-top: 20px;
 }
 
-.otpBack {
+.changePinBack {
   width: 10%;
   height: 100%;
   display: flex;
@@ -52,22 +52,22 @@
   cursor: pointer;
 }
 
-.otpBack img {
+.changePinBack img {
   width: 44px;
   height: 46px;
   cursor: pointer;
 }
 
-.otpExitNav img {
+.changePinExitNav img {
   cursor: pointer;
 }
 
-.otpBack p {
+.changePinBack p {
   text-decoration: underline;
   color: #e9af00;
 }
 
-.modalContent {
+.changePinContent {
   width: 344px;
   height: 357px;
   display: flex;
@@ -75,34 +75,23 @@
   margin-top: 20px;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 65px;
 }
 
-.modalContent img {
-  width: 138px;
-  height: 67;
-}
-
-.modalContent h1 {
+.changePinContent h1 {
   color: #e9af00;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 26px;
+  font-weight: 600;
 }
 
-.modalContent p {
+.changePinContent p {
   color: #131313;
-  font-size: 12px;
-  align-self: self-start;
-  margin-left: 32px;
-}
-
-.modalContent p:nth-child(5) {
-  color: #484646;
-  font-size: 12px;
-  align-self: self-start;
-  margin-left: 32px;
-  text-decoration: underline;
-  cursor: pointer;
+  font-size: 14px;
+  align-self: center;
 }
 
 input::-webkit-outer-spin-button,
@@ -111,13 +100,13 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-.otpCode {
+.changePinCode {
   display: flex;
   flex-direction: row;
   gap: 8px;
 }
 
-.otpCode input {
+.changePinCode input {
   all: unset;
   border: 1px solid #e8e8e8;
   width: 42px;
@@ -128,11 +117,11 @@ input::-webkit-inner-spin-button {
   font-weight: 500;
 }
 
-.otpCode input:focus {
+.changePinCode input:focus {
   border-color: #ffc000;
 }
 
-.confirmButton {
+.changeConfirmButton {
   all: unset;
   cursor: pointer;
   margin-top: 10px;
@@ -146,54 +135,4 @@ input::-webkit-inner-spin-button {
   font-size: 16px;
   font-weight: bold;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-}
-
-.successContainer {
-  width: 480px;
-  height: 550px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  border-radius: 16px;
-  position: absolute;
-  z-index: 70;
-  background-color: #ffffff;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 4px;
-}
-
-.successBackdrop {
-  width: 100vw;
-  height: 100vh;
-  z-index: 60;
-  backdrop-filter: blur(10px);
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  cursor: pointer;
-}
-
-.successContainer h1 {
-  text-align: center;
-  font-size: 36px;
-  font-weight: 500;
-}
-
-.successContainer img {
-  width: 66px;
-  height: 43px;
-}
-
-.successContainer img:nth-child(3) {
-  width: 100px;
-  height: 98px;
 }
