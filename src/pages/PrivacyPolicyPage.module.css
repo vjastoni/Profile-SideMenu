@@ -34,6 +34,7 @@
   align-self: center;
   text-align: justify;
   overflow-y: scroll;
+  margin-right: 20px;
   padding: 4px;
   color: #484646;
   font-size: 20;

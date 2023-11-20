@@ -38,7 +38,15 @@ const SettingsPage = () => {
 
   return (
     <div className={styles.settingsContainer}>
-      <ModalNav />
+      <ModalNav
+        onClick={() => {
+          setAccountInformation(false);
+          setWorkInformation(false);
+          setAddressInformation(false);
+          setChangePassword(false);
+          setSelectedSetting('');
+        }}
+      />
       <div className={styles.settingsContent}>
         <h1
           className={styles.settingsBack}

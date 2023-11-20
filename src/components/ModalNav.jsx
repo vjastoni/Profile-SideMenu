@@ -3,9 +3,9 @@ import styles from './ModalNav.module.css';
 import LeftArrow from '../assets/LeftArrow.png';
 import CWalletIcon from '../assets/CWalletIcon.png';
 
-const ModalNav = () => {
+const ModalNav = ({ ...props }) => {
   return (
-    <div className={styles.faqsNav}>
+    <div {...props} className={styles.faqsNav}>
       <div className={styles.faqsBack}>
         <img src={LeftArrow} />
         <p>Back</p>
