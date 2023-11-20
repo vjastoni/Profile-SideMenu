@@ -115,4 +115,10 @@
   .settingsContent h1 {
     margin-left: 40px;
   }
+  .settingsContent h1 {
+    font-size: 18px;
+  }
+  .settingsContentContainer h3 {
+    visibility: hidden;
+  }
 }

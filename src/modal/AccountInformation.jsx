@@ -63,7 +63,7 @@ const AccountInformation = () => {
           <input className={styles.gray} type="text" placeholder="29081805653" />
           <p>Email</p>
           <input type="email" placeholder="Youssefbsheer@gmail.com" />
-          <p>Are you a Politically Exposed Person?</p>
+          <p className={styles.political}>Are you a Politically Exposed Person?</p>
           <select className={styles.select} name="select" id="select">
             <option value="Yes">Yes</option>
             <option value="No">No</option>

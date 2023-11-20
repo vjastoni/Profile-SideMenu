@@ -83,6 +83,9 @@
   .logoutButton {
     margin-bottom: 21%;
   }
+  .profile-nav {
+    z-index: 100;
+  }
 }
 
 /* Mobile */
