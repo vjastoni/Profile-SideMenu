@@ -11,7 +11,7 @@ const Setting = ({ image, name, description }) => {
       </div>
       <div className={styles.settingInfo}>
         <p>{name}</p>
-        <p>{description}</p>
+        <p className={styles.desc}>{description}</p>
       </div>
       <img className={styles.rightArrow} src={RightArrow} />
     </div>

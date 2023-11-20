@@ -13,3 +13,16 @@
   justify-content: center;
   padding: 8px;
 }
+
+/* Laptops */
+
+@media only screen and (max-width: 1366px) {
+  .settingsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 83%;
+    height: 75%;
+    align-items: center;
+    justify-content: space-around;
+  }
+}

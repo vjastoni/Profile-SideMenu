@@ -12,6 +12,26 @@
   z-index: 5;
 }
 
+.backButton {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  display: flex;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.backButton img {
+  width: 20px;
+  height: 20px;
+}
+
 .profile-nav.open {
   left: 0;
   width: 422px;
@@ -47,4 +67,32 @@
   bottom: 0;
   margin-bottom: 4%;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* Laptop */
+
+@media only screen and (max-width: 1366px) {
+  .logoutButton {
+    margin-bottom: 9%;
+  }
+}
+
+/* Tablet */
+
+@media only screen and (max-width: 768px) {
+  .logoutButton {
+    margin-bottom: 21%;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+  .logoutButton {
+    margin-bottom: 10%;
+  }
+
+  .backButton {
+    width: 36px;
+    height: 36px;
+  }
 }
