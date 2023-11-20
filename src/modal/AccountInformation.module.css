@@ -258,6 +258,20 @@
     display: none;
   }
 
+  [type='text'],
+  [type='email'] {
+    width: 313px;
+    height: 48px;
+  }
+
+  .select {
+    width: 313px;
+    height: 48px;
+  }
+  .radioButton {
+    height: 48px;
+  }
+
   .firstColumn {
     padding-left: 0;
     gap: 6px;
