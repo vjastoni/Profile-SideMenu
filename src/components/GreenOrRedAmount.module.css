@@ -1,0 +1,11 @@
+.redAmount p {
+  color: #f04438;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.greenAmount p {
+  color: #12b76a;
+  font-size: 16px;
+  font-weight: 700;
+}

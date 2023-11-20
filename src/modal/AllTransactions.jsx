@@ -45,14 +45,16 @@ const AllTransactions = ({ ...props }) => {
             name="Internet Bill"
             info="Bank transfer"
             color="Success"
-            amount="- QAR 94.01"
+            priceVal="- QAR 94.01"
+            priceStat="Red"
           />
           <TransactionFormat
             icon={secondTransaction}
             name="Nada Gamal"
             info="Wallet"
             color="Success"
-            amount="+ QAR 41.01"
+            priceVal="+ QAR 41.01"
+            priceStat="Green"
           />
           <p>2 Aug, 2020</p>
           <TransactionFormat
@@ -60,44 +62,42 @@ const AllTransactions = ({ ...props }) => {
             name="Ahmed Emad"
             info="Cash pickup"
             color="Failed"
-            amount="QAR 41.01"
+            priceVal="+ QAR 41.01"
+            priceStat="Red"
           />
           <TransactionFormat
             icon={fourthTransaction}
             name="Ahmed Samir"
             info="Wallet"
             color="Success"
-            amount="+ QAR 41.01"
+            priceVal="+ QAR 41.01"
+            priceStat="Green"
           />
-          <p>2 Aug, 2020</p>
+
           <TransactionFormat
             icon={thirdTransaction}
             name="Ahmed Emad"
             info="Cash pickup"
             color="Success"
-            amount="QAR 41.01"
+            priceVal="+ QAR 41.01"
+            priceStat="Green"
           />
-          <TransactionFormat
-            icon={fourthTransaction}
-            name="Ahmed Samir"
-            info="Wallet"
-            color="Success"
-            amount="+ QAR 41.01"
-          />
-          <p>2 Aug, 2020</p>
+          <p>3 Aug, 2020</p>
           <TransactionFormat
             icon={thirdTransaction}
             name="Ahmed Emad"
             info="Cash pickup"
-            color="Failed"
-            amount="QAR 41.01"
+            color="Success"
+            priceVal="+ QAR 41.01"
+            priceStat="Green"
           />
           <TransactionFormat
-            icon={fourthTransaction}
-            name="Ahmed Samir"
-            info="Wallet"
+            icon={firstTransaction}
+            name="Internet Bill"
+            info="Bank transfer"
             color="Success"
-            amount="+ QAR 41.01"
+            priceVal="- QAR 94.01"
+            priceStat="Red"
           />
         </div>
       </div>

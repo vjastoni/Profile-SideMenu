@@ -2,8 +2,9 @@
 
 import styles from './TransactionFormat.module.css';
 import { SuccessOrFail } from './SuccessOrFail';
+import { GreenOrRedAmount } from './GreenOrRedAmount';
 
-const TransactionFormat = ({ icon, name, info, amount, color }) => {
+const TransactionFormat = ({ icon, name, info, priceVal, priceStat, color }) => {
   return (
     <div className={styles.transacTable}>
       <div className={styles.transacUserInfo}>
@@ -15,7 +16,7 @@ const TransactionFormat = ({ icon, name, info, amount, color }) => {
       </div>
       <div className={styles.transacAmountInfo}>
         <SuccessOrFail condition={color} />
-        <p>{amount}</p>
+        <GreenOrRedAmount statusColor={priceStat} price={priceVal} />
       </div>
     </div>
   );
