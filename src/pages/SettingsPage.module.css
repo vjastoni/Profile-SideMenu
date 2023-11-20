@@ -118,7 +118,7 @@
   .settingsContent h1 {
     font-size: 18px;
   }
-  .settingsContentContainer h3 {
-    visibility: hidden;
+  .settingsPersonal {
+    margin-top: 60px;
   }
 }
