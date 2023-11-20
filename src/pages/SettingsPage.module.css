@@ -94,8 +94,25 @@
   .settingsContainer {
     width: 100vw;
   }
+
+  .settingsExtra {
+    width: 110%;
+    gap: 40px;
+  }
+  .settingsContent {
+    margin-top: 0;
+  }
 }
 
 /* Mobile */
 @media only screen and (max-width: 480px) {
+  .settingsExtra {
+    height: 100%;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 235px;
+  }
+  .settingsContent h1 {
+    margin-left: 40px;
+  }
 }
