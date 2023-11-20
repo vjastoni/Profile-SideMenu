@@ -14,11 +14,13 @@ import NoteIcon from '../assets/NoteIcon.png';
 const NavBarSettings = () => {
   return (
     <div className={styles.settingsContainer}>
-      <Setting
-        image={InviteIcon}
-        name="Invite your friends"
-        description="sed do eiusmod tempor incididunt."
-      />
+      <NavLink style={{ textDecoration: 'none' }}>
+        <Setting
+          image={InviteIcon}
+          name="Invite your friends"
+          description="sed do eiusmod tempor incididunt."
+        />
+      </NavLink>
       <NavLink
         to="settings"
         style={({ isActive }) => ({
@@ -34,16 +36,20 @@ const NavBarSettings = () => {
           description="sed do eiusmod tempor incididunt."
         />
       </NavLink>
-      <Setting
-        image={CardIcon}
-        name="Cards"
-        description="sed do eiusmod tempor incididunt."
-      />
-      <Setting
-        image={PaymentIcon}
-        name="Express payment"
-        description="sed do eiusmod tempor incididunt."
-      />
+      <NavLink style={{ textDecoration: 'none' }}>
+        <Setting
+          image={CardIcon}
+          name="Cards"
+          description="sed do eiusmod tempor incididunt."
+        />
+      </NavLink>
+      <NavLink style={{ textDecoration: 'none' }}>
+        <Setting
+          image={PaymentIcon}
+          name="Express payment"
+          description="sed do eiusmod tempor incididunt."
+        />
+      </NavLink>
       <NavLink
         to="helpcenter"
         style={({ isActive }) => ({
