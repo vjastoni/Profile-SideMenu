@@ -19,17 +19,29 @@ const RefundSupport = () => {
             <div className={styles.firstCol}>
               <div>
                 <p>Name</p>
-                <input type="name" placeholder="Ex. Youssef Bsheer" />
+                <input
+                  className={styles.shorter}
+                  type="name"
+                  placeholder="Ex. Youssef Bsheer"
+                />
               </div>
               <div>
                 <p>Email</p>
-                <input type="name" placeholder="Ex. youssefbsheer@gmail.com" />
+                <input
+                  className={styles.email}
+                  type="name"
+                  placeholder="Ex. youssefbsheer@gmail.com"
+                />
               </div>
             </div>
             <div className={styles.secCol}>
               <div>
                 <p>Phone number</p>
-                <input type="number" placeholder="Ex. +201094828532" />
+                <input
+                  className={styles.shorter}
+                  type="number"
+                  placeholder="Ex. +201094828532"
+                />
               </div>
               <div>
                 <p>Choose Transaction</p>

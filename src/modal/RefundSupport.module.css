@@ -46,6 +46,16 @@ form {
   gap: 20px;
 }
 
+.firstCol .shorter,
+.secCol .shorter {
+  width: 219px;
+  height: 46px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border: 1px solid #ffc000;
+  border-radius: 8px;
+}
+
 .colWrapper {
   width: 80%;
   display: flex;
@@ -59,7 +69,7 @@ form {
   font-size: 14px;
 }
 
-.colWrapper input {
+.firstCol .email {
   width: 343px;
   height: 46px;
   padding-left: 14px;

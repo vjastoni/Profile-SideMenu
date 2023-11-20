@@ -28,7 +28,13 @@ const HelpCenterPage = () => {
 
   return (
     <div className={styles.helpContainer}>
-      <ModalNav />
+      <ModalNav
+        onClick={() => {
+          setTechSupport(false);
+          setRefundSupport(false);
+          setSelectedSetting('');
+        }}
+      />
       <div className={styles.helpContent}>
         <div className={styles.helpHeader}>
           <img src={HelpCenterIcon} />
