@@ -44,14 +44,14 @@ const AllTransactions = ({ ...props }) => {
             icon={firstTransaction}
             name="Internet Bill"
             info="Bank transfer"
-            condition="Success"
+            color="Success"
             amount="- QAR 94.01"
           />
           <TransactionFormat
             icon={secondTransaction}
             name="Nada Gamal"
             info="Wallet"
-            condition="Success"
+            color="Success"
             amount="+ QAR 41.01"
           />
           <p>2 Aug, 2020</p>
@@ -59,14 +59,14 @@ const AllTransactions = ({ ...props }) => {
             icon={thirdTransaction}
             name="Ahmed Emad"
             info="Cash pickup"
-            condition="Success"
+            color="Failed"
             amount="QAR 41.01"
           />
           <TransactionFormat
             icon={fourthTransaction}
             name="Ahmed Samir"
             info="Wallet"
-            condition="Success"
+            color="Success"
             amount="+ QAR 41.01"
           />
           <p>2 Aug, 2020</p>
@@ -74,14 +74,14 @@ const AllTransactions = ({ ...props }) => {
             icon={thirdTransaction}
             name="Ahmed Emad"
             info="Cash pickup"
-            condition="Success"
+            color="Success"
             amount="QAR 41.01"
           />
           <TransactionFormat
             icon={fourthTransaction}
             name="Ahmed Samir"
             info="Wallet"
-            condition="Success"
+            color="Success"
             amount="+ QAR 41.01"
           />
           <p>2 Aug, 2020</p>
@@ -89,14 +89,14 @@ const AllTransactions = ({ ...props }) => {
             icon={thirdTransaction}
             name="Ahmed Emad"
             info="Cash pickup"
-            condition="Success"
+            color="Failed"
             amount="QAR 41.01"
           />
           <TransactionFormat
             icon={fourthTransaction}
             name="Ahmed Samir"
             info="Wallet"
-            condition="Success"
+            color="Success"
             amount="+ QAR 41.01"
           />
         </div>

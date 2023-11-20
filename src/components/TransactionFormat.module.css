@@ -35,7 +35,7 @@
   align-items: center;
 }
 
-.transSuccess {
+/* .transSuccess {
   width: 58px;
   height: 20px;
   color: #12b76a;
@@ -46,7 +46,7 @@
   align-items: center;
   justify-content: center;
   display: flex;
-}
+} */
 
 .transacAmountInfo p {
   color: #f04438;
