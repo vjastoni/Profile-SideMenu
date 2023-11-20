@@ -79,3 +79,23 @@
   align-items: center;
   justify-content: start;
 }
+
+/* Laptops */
+
+@media only screen and (max-width: 1366px) {
+  .settingsContainer {
+    width: 69%;
+  }
+}
+
+/* Tablet */
+
+@media only screen and (max-width: 768px) {
+  .settingsContainer {
+    width: 100vw;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+}

@@ -56,3 +56,79 @@
   font-weight: 600;
   cursor: pointer;
 }
+
+/* Laptops */
+
+@media only screen and (max-width: 1366px) {
+  .faqsNav {
+    justify-content: space-between;
+  }
+
+  .faqsBack {
+    margin-left: 20px;
+  }
+
+  .faqsBack img {
+    width: 44px;
+    height: 46px;
+  }
+
+  .faqsRoutes {
+    width: 40%;
+  }
+
+  .faqsRoutes nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 40px;
+    cursor: pointer;
+    margin: 0;
+    font-size: 14px;
+    margin-right: 20px;
+  }
+}
+
+/* Tablet */
+
+@media only screen and (max-width: 768px) {
+  .faqsRoutes {
+    width: 60%;
+  }
+  .faqsBack {
+    margin-left: 4px;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+  .faqsNav {
+    height: 8%;
+  }
+  .faqsIcon {
+    width: 52%;
+  }
+  .faqsBack p {
+    font-size: 10px;
+    text-decoration: underline;
+    color: #e9af00;
+  }
+  .faqsBack img {
+    width: 24px;
+    height: 26px;
+  }
+  .faqsIcon img {
+    width: 60px;
+    height: 30px;
+  }
+  .faqsRoutes {
+    width: 70%;
+  }
+  .faqsRoutes nav {
+    font-size: 10px;
+    text-align: center;
+    margin: 0;
+    gap: 10px;
+    margin-right: 10px;
+  }
+}
