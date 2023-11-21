@@ -53,3 +53,17 @@
   font-size: 16px;
   font-weight: 700;
 } */
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+  .transacTable {
+    padding: 0;
+  }
+  .transacUserInfo p {
+    font-size: 12px;
+  }
+  .transacInfo p {
+    font-size: 10px;
+    font-weight: 400;
+  }
+}
