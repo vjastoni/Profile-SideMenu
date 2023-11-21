@@ -230,7 +230,6 @@
   .accountInfoContainer {
     top: 54%;
     height: 82%;
-    z-index: 40;
   }
   .political {
     width: 250px;
