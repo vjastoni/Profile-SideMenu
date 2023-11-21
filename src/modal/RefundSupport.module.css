@@ -163,3 +163,113 @@ textarea {
   font-size: 14px;
   font-weight: 500;
 }
+
+/* Laptops */
+
+@media only screen and (max-width: 1366px) {
+  .refundContainer {
+    padding: 10px;
+    top: 58.5%;
+  }
+
+  .form {
+    width: 100%;
+    padding-right: 80px;
+    padding-left: 40px;
+    margin-top: 0;
+  }
+
+  .colWrapper {
+    width: 110%;
+  }
+  .textarea {
+    width: 740px;
+    margin-right: 40px;
+    align-self: flex-start;
+  }
+  .submitButton {
+    margin-right: 0px;
+  }
+  .addWrapper {
+    height: 100px;
+    margin: 0;
+  }
+  .sendTicket label {
+    margin-right: 40px;
+  }
+  .submitButton {
+    margin-bottom: 100px;
+  }
+}
+/* Tablet */
+
+@media only screen and (max-width: 768px) {
+  .refundContainer {
+    justify-content: start;
+  }
+  .form {
+    margin-top: 20px;
+  }
+  .colWrapper {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .firstCol,
+  .secCol {
+    gap: 10px;
+  }
+  .textarea {
+    width: 600px;
+    margin-left: 40px;
+    align-self: flex-start;
+  }
+  .feedback {
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  .addWrapper {
+    padding-left: 40px;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+  .refundContainer {
+    width: 100vw;
+  }
+  .form {
+    margin: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-bottom: 20px;
+  }
+  .colWrapper {
+    width: 148%;
+    margin-left: 40px;
+    padding-left: 4px;
+  }
+  .textarea {
+    width: 360px;
+    margin-left: 34px;
+    align-self: flex-start;
+  }
+  .addWrapper {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+  }
+  .feedback {
+    margin-left: 40px;
+    margin-top: 0;
+  }
+  .submitButton {
+    margin: 0;
+    margin-top: 50px;
+    margin-right: 30px;
+  }
+  .addWrapper p {
+    text-align: left;
+    margin-bottom: 4px;
+  }
+}

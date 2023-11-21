@@ -53,7 +53,10 @@ const RefundSupport = () => {
           </div>
           <div>
             <p className={styles.feedback}>Comments</p>
-            <textarea placeholder="Enter your comments" />
+            <textarea
+              className={styles.textarea}
+              placeholder="Enter your comments"
+            />
 
             <div className={styles.addWrapper}>
               <div>
