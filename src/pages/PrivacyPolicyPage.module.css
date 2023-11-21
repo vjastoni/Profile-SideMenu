@@ -49,3 +49,52 @@
   font-size: 20px;
   color: #484646;
 }
+
+/* Laptops */
+
+@media only screen and (max-width: 1366px) {
+  .privacyContainer {
+    width: 69%;
+  }
+  .privacyContentContainer {
+    height: 80%;
+  }
+  .privacyContent h1 {
+    margin-left: 50px;
+  }
+}
+
+/* Tablet */
+
+@media only screen and (max-width: 768px) {
+  .privacyContainer {
+    width: 100vw;
+  }
+  .privacyContent h1 {
+    margin-left: 50px;
+    font-size: 50px;
+  }
+  .privacyContentContainer {
+    height: 85%;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+  .privacyContent {
+    justify-content: start;
+  }
+  .privacyContent h1 {
+    margin-left: 20px;
+    font-size: 30px;
+  }
+  .privacyContentContainer {
+    width: 92%;
+    height: 90%;
+    align-items: start;
+    margin-left: 16px;
+  }
+  .privacyContentContainer p {
+    font-size: 14px;
+  }
+}

@@ -41,7 +41,7 @@
 @media only screen and (max-width: 480px) {
   .container {
     border: 1px solid #e8e8e8;
-    width: 80%;
+    width: 90%;
     height: 50%;
   }
   .container summary {

@@ -82,8 +82,13 @@
 
 /* Mobile */
 @media only screen and (max-width: 480px) {
+  .termsContent {
+    justify-content: start;
+    padding-top: 0;
+    margin-top: 0;
+  }
   .termsContent h1 {
-    margin-left: 24px;
+    margin-left: 20px;
     font-size: 26px;
   }
   .termsContentContainer {
