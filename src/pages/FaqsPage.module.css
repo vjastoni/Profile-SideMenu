@@ -38,3 +38,33 @@
 .faqsContentContainer::-webkit-scrollbar {
   display: none;
 }
+
+/* Laptops */
+
+@media only screen and (max-width: 1366px) {
+  .faqsContainer {
+    width: 69%;
+  }
+  .faqsContentContainer {
+    height: 82%;
+  }
+}
+
+/* Tablet */
+
+@media only screen and (max-width: 768px) {
+  .faqsContainer {
+    width: 100vw;
+  }
+  .faqsContainer h1 {
+    margin-left: 70px;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+  .faqsContainer h1 {
+    margin-left: 40px;
+    font-size: 50px;
+  }
+}

@@ -36,3 +36,21 @@
   margin-left: 6px;
   color: #484646;
 }
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+  .container {
+    border: 1px solid #e8e8e8;
+    width: 80%;
+    height: 50%;
+  }
+  .container summary {
+    font-size: 14px;
+  }
+  .container p {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 12px;
+    text-align: justify;
+  }
+}
