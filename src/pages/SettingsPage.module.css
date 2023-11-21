@@ -94,6 +94,9 @@
   .settingsContainer {
     width: 100vw;
   }
+  .settingsContent h1 {
+    margin-left: 64px;
+  }
 
   .settingsExtra {
     width: 110%;

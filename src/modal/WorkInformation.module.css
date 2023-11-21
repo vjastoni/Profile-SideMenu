@@ -97,6 +97,16 @@
   .firstCol {
     padding-left: 40px;
   }
+  .select {
+    width: 290px;
+    height: 48px;
+  }
+
+  .secondCol input,
+  .firstCol input {
+    width: 290px;
+    height: 48px;
+  }
 
   .secondCol {
     width: 50%;
