@@ -41,15 +41,25 @@
 .profile-nav.close {
   left: -422px;
 }
+.showSideBar img {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+}
 
-.button {
-  height: 50px;
+.showSideBar {
+  border: 3px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  height: 60px;
   width: 60px;
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
+  left: 1%;
+  top: 1%;
   z-index: 40;
+  cursor: pointer;
 }
 
 .logoutButton {

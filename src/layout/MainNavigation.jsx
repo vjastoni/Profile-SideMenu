@@ -4,6 +4,7 @@ import ProfileInfo from '../components/ProfileInfo';
 import NavBarSettings from '../components/NavBarSettings';
 
 import LeftArrow from '../assets/LeftArrow.png';
+import ProfilePicture from '../assets/ProfilePicture.png';
 
 const MainNavigation = () => {
   const [showProfile, setShowProfile] = useState(true);
@@ -26,14 +27,14 @@ const MainNavigation = () => {
 
   return (
     <div>
-      <button
-        className="button"
+      <div
+        className="showSideBar"
         onClick={() => {
           setShowProfile(!showProfile);
         }}
       >
-        Show Profile
-      </button>
+        <img src={ProfilePicture} />
+      </div>
       {sidenav}
     </div>
   );

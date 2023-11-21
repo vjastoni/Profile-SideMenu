@@ -99,6 +99,9 @@
     margin-left: 4px;
     padding-left: 60px;
   }
+  .faqsBack {
+    visibility: hidden;
+  }
 }
 
 /* Mobile */
