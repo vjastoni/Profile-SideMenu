@@ -85,3 +85,93 @@
   margin-top: 150px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
+
+/* Laptops */
+
+@media only screen and (max-width: 1366px) {
+  .forms {
+    width: 58vw;
+    padding: 0;
+    padding-right: 100px;
+  }
+  .firstCol {
+    padding-left: 40px;
+  }
+
+  .secondCol {
+    width: 50%;
+    margin-left: 150px;
+  }
+  .saveButton {
+    margin-right: 0;
+  }
+}
+
+/* Tablet */
+
+@media only screen and (max-width: 768px) {
+  .forms {
+    width: 84vw;
+    padding: 0;
+    padding-right: 0;
+  }
+  .workContainer h1 {
+    margin: 0;
+  }
+
+  .firstCol {
+    padding-left: 0;
+  }
+
+  .secondCol {
+    width: 50%;
+    margin-left: 100px;
+  }
+
+  .select {
+    width: 290px;
+    height: 48px;
+  }
+
+  .secondCol input,
+  .firstCol input {
+    width: 290px;
+    height: 48px;
+  }
+
+  .saveButton {
+    margin-right: 6px;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+  .workContainer {
+    width: 100vw;
+    left: 52%;
+    top: 51%;
+  }
+  .forms {
+    width: 82vw;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    padding: 10px;
+  }
+  .firstCol {
+    height: 250px;
+  }
+  .firstCol p {
+    width: 200px;
+  }
+  .secondCol {
+    height: 360px;
+    width: 81.5vw;
+    margin-left: 0;
+  }
+  .saveButton {
+    margin-right: 28px;
+    margin-top: 70px;
+  }
+}

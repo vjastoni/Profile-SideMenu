@@ -9,7 +9,7 @@
   align-items: center;
   flex-direction: column;
   transition-duration: 500ms;
-  z-index: 5;
+  z-index: 100;
 }
 
 .backButton {
