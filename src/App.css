@@ -43,13 +43,12 @@
 
 .button {
   height: 50px;
-  width: 300px;
+  width: 60px;
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
-  bottom: 0;
-  margin: auto;
+  z-index: 40;
 }
 
 .logoutButton {
@@ -91,11 +90,16 @@
 /* Mobile */
 @media only screen and (max-width: 480px) {
   .logoutButton {
-    margin-bottom: 10%;
+    margin-bottom: 12%;
   }
 
   .backButton {
     width: 36px;
     height: 36px;
+  }
+  .button {
+    height: 40px;
+    width: 40px;
+    font-size: 8px;
   }
 }

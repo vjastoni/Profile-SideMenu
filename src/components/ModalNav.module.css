@@ -97,6 +97,7 @@
   }
   .faqsBack {
     margin-left: 4px;
+    padding-left: 60px;
   }
 }
 
@@ -107,6 +108,9 @@
   }
   .faqsIcon {
     width: 52%;
+  }
+  .faqsBack {
+    padding-left: 34px;
   }
   .faqsBack p {
     font-size: 10px;
