@@ -103,7 +103,7 @@
 /* Mobile */
 @media only screen and (max-width: 480px) {
   .logoutButton {
-    margin-bottom: 12%;
+    margin-bottom: 8%;
   }
 
   .backButton {
