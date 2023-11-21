@@ -24,3 +24,40 @@
   margin-left: 100px;
   text-align: left;
 }
+
+/* Laptops */
+
+@media only screen and (max-width: 1366px) {
+  .limitsContainer {
+    width: 69%;
+  }
+  .limitsContent {
+    height: 80%;
+  }
+  .limitsContent h1 {
+    margin-left: 50px;
+  }
+}
+
+/* Tablet */
+
+@media only screen and (max-width: 768px) {
+  .limitsContainer {
+    width: 100vw;
+  }
+  .limitsContent h1 {
+    margin-left: 50px;
+    font-size: 50px;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+  .limitsContainer {
+    justify-content: start;
+  }
+  .limitsContent h1 {
+    margin-left: 20px;
+    font-size: 30px;
+  }
+}
