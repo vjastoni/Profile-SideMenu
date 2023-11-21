@@ -45,3 +45,54 @@
 .termsContentContainer::-webkit-scrollbar {
   display: none;
 }
+
+/* Laptops */
+
+@media only screen and (max-width: 1366px) {
+  .termsContainer {
+    width: 69%;
+  }
+  .termsContentContainer {
+    height: 80%;
+  }
+  .termsContent h1 {
+    margin-left: 50px;
+  }
+}
+
+/* Tablet */
+
+@media only screen and (max-width: 768px) {
+  .termsContainer {
+    width: 100vw;
+  }
+  .termsContent {
+    justify-content: start;
+    margin-top: 20px;
+  }
+  .termsContent h1 {
+    margin-left: 40px;
+    font-size: 50px;
+  }
+  .termsContentContainer {
+    height: 80%;
+    height: 85%;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+  .termsContent h1 {
+    margin-left: 24px;
+    font-size: 26px;
+  }
+  .termsContentContainer {
+    width: 94%;
+    height: 90%;
+    align-items: center;
+    margin-left: 16px;
+  }
+  .termsContentContainer p {
+    font-size: 14px;
+  }
+}

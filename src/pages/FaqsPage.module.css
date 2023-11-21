@@ -58,6 +58,10 @@
   }
   .faqsContainer h1 {
     margin-left: 70px;
+    font-size: 50px;
+  }
+  .faqsContentContainer {
+    height: 85%;
   }
 }
 
@@ -66,5 +70,8 @@
   .faqsContainer h1 {
     margin-left: 40px;
     font-size: 50px;
+  }
+  .faqsContentContainer {
+    height: 90%;
   }
 }
