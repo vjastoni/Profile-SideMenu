@@ -25,6 +25,7 @@
   left: 0;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  visibility: hidden;
 }
 
 .backButton img {
@@ -74,6 +75,9 @@
   .logoutButton {
     margin-bottom: 9%;
   }
+  .profile-nav {
+    z-index: 60;
+  }
 }
 
 /* Tablet */
@@ -84,6 +88,9 @@
   }
   .profile-nav {
     z-index: 100;
+  }
+  .backButton {
+    visibility: visible;
   }
 }
 
