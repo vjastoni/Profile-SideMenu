@@ -48,7 +48,10 @@ const TechnicalSupport = () => {
           </div>
           <div>
             <p className={styles.feedback}>Feedback</p>
-            <textarea placeholder="Enter your feedback" />
+            <textarea
+              className={styles.textarea}
+              placeholder="Enter your feedback"
+            />
           </div>
           <button className={styles.submitButton}>SUBMIT</button>
         </form>

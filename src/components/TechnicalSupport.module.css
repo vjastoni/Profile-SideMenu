@@ -115,3 +115,85 @@ textarea {
   margin-top: 50px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
+
+/* Laptops */
+
+@media only screen and (max-width: 1366px) {
+  .technicalContainer {
+    padding: 10px;
+    top: 58.5%;
+  }
+
+  .form {
+    width: 100%;
+    padding-right: 80px;
+    padding-left: 40px;
+    margin-top: 0;
+  }
+  .colWrapper {
+    width: 110%;
+  }
+  .textarea {
+    width: 740px;
+    margin-right: 40px;
+    align-self: flex-start;
+  }
+  .submitButton {
+    margin-right: 0px;
+  }
+}
+
+/* Tablet */
+
+@media only screen and (max-width: 768px) {
+  .technicalContainer {
+    justify-content: start;
+  }
+  .form {
+    margin-top: 20px;
+  }
+  .colWrapper {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .firstCol,
+  .secCol {
+    gap: 10px;
+  }
+  .textarea {
+    width: 600px;
+    margin-left: 40px;
+    align-self: flex-start;
+  }
+  .feedback {
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+  .technicalContainer {
+    width: 100vw;
+  }
+
+  .colWrapper {
+    width: 148%;
+    margin-left: 40px;
+    padding-left: 4px;
+  }
+  .textarea {
+    width: 360px;
+    margin-left: 34px;
+    align-self: flex-start;
+  }
+  .feedback {
+    margin-left: 40px;
+    margin-top: 0;
+  }
+  .submitButton {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+  }
+}
