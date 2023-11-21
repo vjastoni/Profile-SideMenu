@@ -29,3 +29,11 @@
   font-weight: 400;
   color: #484646;
 }
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+  .box {
+    width: 100%;
+    height: 18%;
+  }
+}
