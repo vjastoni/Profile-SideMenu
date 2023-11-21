@@ -22,18 +22,6 @@
   align-self: self-start;
 }
 
-.form {
-  display: flex;
-  width: 80%;
-  height: 80%;
-  justify-content: start;
-  align-items: start;
-}
-
-form {
-  width: 100%;
-}
-
 .technicalContainer p {
   font-size: 14px;
   font-weight: 500;
@@ -81,8 +69,8 @@ select {
   border-radius: 8px;
 }
 
-textarea {
-  width: 809px;
+.textarea {
+  width: 1009px;
   height: 140px;
   padding-left: 14px;
   padding-right: 14px;
@@ -95,7 +83,6 @@ textarea {
 
 .feedback {
   align-self: flex-start;
-  margin-top: 10px;
 }
 
 .submitButton {
@@ -111,8 +98,7 @@ textarea {
   color: #ffffff;
   font-size: 16px;
   font-weight: bold;
-  margin-right: 98px;
-  margin-top: 50px;
+  margin-right: 240px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
@@ -133,13 +119,15 @@ textarea {
   .colWrapper {
     width: 110%;
   }
+  .textareaWrapper {
+    width: 100%;
+  }
   .textarea {
-    width: 740px;
-    margin-right: 40px;
-    align-self: flex-start;
+    width: 98%;
+    margin: 0;
   }
   .submitButton {
-    margin-right: 0px;
+    margin-right: 10px;
   }
 }
 
@@ -155,19 +143,22 @@ textarea {
   .colWrapper {
     flex-direction: column;
     gap: 10px;
+    margin-top: 4px;
   }
   .firstCol,
   .secCol {
     gap: 10px;
   }
   .textarea {
-    width: 600px;
-    margin-left: 40px;
-    align-self: flex-start;
+    width: 98%;
+    margin: 0;
   }
   .feedback {
-    margin-left: 40px;
+    margin: 0;
     margin-top: 10px;
+  }
+  .submitButton {
+    margin-top: 20px;
   }
 }
 
@@ -175,25 +166,28 @@ textarea {
 @media only screen and (max-width: 480px) {
   .technicalContainer {
     width: 100vw;
+    height: 82.5%;
+    align-items: start;
+    justify-content: start;
+    padding-left: 10px;
   }
 
   .colWrapper {
-    width: 148%;
-    margin-left: 40px;
-    padding-left: 4px;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .feedback {
+    margin: 0;
   }
   .textarea {
-    width: 360px;
-    margin-left: 34px;
-    align-self: flex-start;
-  }
-  .feedback {
-    margin-left: 40px;
-    margin-top: 0;
+    width: 350px;
+    margin: 0;
   }
   .submitButton {
-    position: absolute;
-    bottom: 5%;
-    right: 5%;
+    padding-right: 0;
+    margin-right: 0;
   }
 }
