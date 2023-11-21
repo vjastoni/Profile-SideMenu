@@ -158,8 +158,8 @@
 @media only screen and (max-width: 480px) {
   .workContainer {
     width: 100vw;
-    left: 52%;
-    top: 51%;
+    height: 87.5%;
+    top: 56%;
   }
   .forms {
     width: 82vw;

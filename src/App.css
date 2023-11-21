@@ -60,6 +60,7 @@
   top: 1%;
   z-index: 40;
   cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .logoutButton {
@@ -91,7 +92,7 @@
 
 @media only screen and (max-width: 768px) {
   .logoutButton {
-    margin-bottom: 21%;
+    margin-bottom: 10%;
   }
 
   .backButton {
@@ -113,5 +114,14 @@
     height: 40px;
     width: 40px;
     font-size: 8px;
+  }
+  .showSideBar img {
+    width: 46px;
+    height: 46px;
+  }
+
+  .showSideBar {
+    height: 50px;
+    width: 50px;
   }
 }
