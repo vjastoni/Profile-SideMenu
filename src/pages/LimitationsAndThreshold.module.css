@@ -24,6 +24,18 @@
   margin-left: 100px;
   text-align: left;
 }
+/* Laptops large */
+@media only screen and (min-width: 1367px) and (max-width: 1440px) {
+  .limitsContainer {
+    width: 70.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+  .limitsContent h1 {
+    margin-left: 55px;
+  }
+}
 
 /* Laptops */
 
