@@ -110,7 +110,7 @@
 
 /* Laptops */
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (min-width: 1000px) and (max-width: 1366px) {
   .formed {
     width: 59vw;
     padding: 0;

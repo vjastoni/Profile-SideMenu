@@ -94,14 +94,13 @@
 }
 
 /* Laptops */
-
-@media only screen and (max-width: 1366px) {
+@media only screen and (min-width: 1000px) and (max-width: 1366px) {
   .faqsNav {
     justify-content: space-between;
   }
 
   .faqsBack {
-    margin-left: 8px;
+    margin-left: 20px;
   }
 
   .faqsBack img {
@@ -117,7 +116,7 @@
     display: flex;
     flex-direction: row;
     justify-content: end;
-    gap: 40px;
+    gap: 20px;
     cursor: pointer;
     margin: 0;
     font-size: 14px;

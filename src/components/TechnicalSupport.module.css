@@ -131,10 +131,10 @@ select {
 
 /* Laptops */
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (min-width: 1000px) and (max-width: 1366px) {
   .technicalContainer {
     padding: 10px;
-    top: 58.5%;
+    top: 59%;
   }
 
   .form {

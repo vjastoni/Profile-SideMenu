@@ -209,7 +209,7 @@
 
 /* Laptops */
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (min-width: 1000px) and (max-width: 1366px) {
   .accountInfoContainer {
     padding: 10px;
     top: 58.5%;
@@ -219,6 +219,7 @@
     padding-right: 80px;
     padding-left: 40px;
     margin-top: 0;
+    gap: 100px;
   }
   .firstColumn {
     padding-left: 20px;
@@ -260,9 +261,11 @@
     justify-content: center;
     gap: 6px;
     padding-top: 30px;
+    padding-left: 20px;
   }
   .saveButton {
-    margin-top: 60px;
+    margin-top: 40px;
+    margin-right: 0;
   }
 }
 

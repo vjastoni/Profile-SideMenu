@@ -78,6 +78,13 @@
   }
 }
 
+/* Laptops */
+@media only screen and (min-width: 1000px) and (max-width: 1366px) {
+  .profileContainer {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+}
 /* Tablet */
 
 @media only screen and (max-width: 768px) {

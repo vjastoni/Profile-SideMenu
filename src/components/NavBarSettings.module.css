@@ -24,12 +24,12 @@
 
 /* Laptops */
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (min-width: 1000px) and (max-width: 1366px) {
   .settingsContainer {
     display: flex;
     flex-direction: column;
     width: 83%;
-    height: 75%;
+    height: 77%;
     align-items: center;
     justify-content: space-around;
   }
