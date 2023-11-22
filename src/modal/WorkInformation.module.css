@@ -85,6 +85,40 @@
   margin-top: 150px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
+/* Laptops large */
+@media only screen and (min-width: 1367px) and (max-width: 1440px) {
+  .workContainer {
+    width: 97%;
+    height: 79%;
+    top: 60%;
+  }
+  .forms {
+    width: 58vw;
+    padding-right: 140px;
+    padding-left: 90px;
+  }
+  .firstCol {
+    padding-left: 40px;
+  }
+  .select {
+    width: 290px;
+    height: 48px;
+  }
+
+  .secondCol input,
+  .firstCol input {
+    width: 290px;
+    height: 48px;
+  }
+
+  .secondCol {
+    width: 50%;
+    margin-left: 150px;
+  }
+  .saveButton {
+    margin-right: 0;
+  }
+}
 
 /* Laptops */
 

@@ -78,6 +78,36 @@
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
+/* Laptops large */
+@media only screen and (min-width: 1367px) and (max-width: 1440px) {
+  .addressContainer {
+    width: 97%;
+    height: 79%;
+    top: 60%;
+  }
+  .formed {
+    width: 59vw;
+    padding-right: 140px;
+    padding-left: 90px;
+  }
+
+  .firstCol {
+    padding: 0;
+  }
+  .secondCol {
+    width: 50%;
+    margin-left: 150px;
+  }
+  .secondCol input,
+  .firstCol input {
+    width: 290px;
+    height: 48px;
+  }
+  .saveButton {
+    margin-right: 4px;
+  }
+}
+
 /* Laptops */
 
 @media only screen and (max-width: 1366px) {

@@ -148,6 +148,64 @@
   margin-top: 50px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
+/* Laptops large */
+@media only screen and (min-width: 1367px) and (max-width: 1440px) {
+  .accountInfoContainer {
+    width: 97%;
+    height: 79%;
+    top: 60%;
+  }
+  .form {
+    width: 100%;
+    padding-right: 140px;
+    padding-left: 90px;
+    margin-top: 0;
+  }
+  .firstColumn {
+    padding-left: 20px;
+    gap: 6px;
+  }
+
+  .firstColumn p {
+    font-size: 12px;
+  }
+
+  .secondColumn p {
+    font-size: 12px;
+  }
+
+  .wrapper p:nth-child(2) {
+    font-size: 10px;
+  }
+  .radioButton {
+    width: 313px;
+    height: 40px;
+  }
+  .select {
+    width: 313px;
+    height: 40px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border: 1px solid #ffc000;
+    border-radius: 8px;
+  }
+
+  [type='text'],
+  [type='email'] {
+    width: 313px;
+    height: 40px;
+  }
+  .secondColumn {
+    width: 325px;
+    height: 545px;
+    justify-content: center;
+    gap: 6px;
+    padding-top: 30px;
+  }
+  .saveButton {
+    margin-top: 40px;
+  }
+}
 
 /* Laptops */
 
