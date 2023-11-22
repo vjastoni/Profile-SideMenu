@@ -34,3 +34,16 @@
     justify-content: space-around;
   }
 }
+
+/* Tablet */
+
+@media only screen and (max-width: 768px) {
+  .settingsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 83%;
+    height: 80%;
+    align-items: center;
+    justify-content: space-around;
+  }
+}

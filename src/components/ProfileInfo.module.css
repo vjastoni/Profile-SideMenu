@@ -89,6 +89,7 @@
 
 @media only screen and (max-width: 768px) {
   .profileContainer {
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-bottom: 6px;
   }
 }
