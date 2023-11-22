@@ -40,7 +40,7 @@
 }
 
 /* Laptops large */
-@media only screen and (min-width: 1367px) and (max-width: 1440px) {
+@media only screen and (min-width: 1367px) and (max-width: 1517px) {
   .faqsContainer {
     width: 70.5%;
     display: flex;

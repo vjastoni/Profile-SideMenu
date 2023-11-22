@@ -71,7 +71,7 @@
 }
 
 /* Laptops large */
-@media only screen and (min-width: 1367px) and (max-width: 1440px) {
+@media only screen and (min-width: 1367px) and (max-width: 1517px) {
   .profileContainer {
     margin-top: 5px;
     margin-bottom: 5px;
