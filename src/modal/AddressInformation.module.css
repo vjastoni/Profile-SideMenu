@@ -155,14 +155,15 @@
 
 /* Mobile */
 @media only screen and (max-width: 480px) {
+  .addressContainer {
+    width: 97%;
+    height: 86%;
+    top: 56%;
+    padding-left: 16px;
+  }
   .formed {
     flex-direction: column;
     padding: 10px;
-  }
-  .addressContainer {
-    width: 100vw;
-    left: 52%;
-    top: 51%;
   }
   .firstCol {
     height: 255px;

@@ -337,5 +337,6 @@
   }
   .saveButton {
     margin-bottom: 16px;
+    margin-top: 6px;
   }
 }
