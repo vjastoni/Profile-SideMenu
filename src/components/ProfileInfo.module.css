@@ -70,6 +70,14 @@
   font-weight: 500;
 }
 
+/* Laptops large */
+@media only screen and (min-width: 1367px) and (max-width: 1440px) {
+  .profileContainer {
+    scale: 0.8;
+    margin: 0;
+  }
+}
+
 /* Tablet */
 
 @media only screen and (max-width: 768px) {
