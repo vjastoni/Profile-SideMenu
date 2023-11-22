@@ -73,8 +73,8 @@
 /* Laptops large */
 @media only screen and (min-width: 1367px) and (max-width: 1440px) {
   .profileContainer {
-    scale: 0.8;
-    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 }
 

@@ -101,6 +101,33 @@ select {
   margin-right: 240px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
+/* Laptops large */
+@media only screen and (min-width: 1367px) and (max-width: 1440px) {
+  .technicalContainer {
+    width: 92%;
+    height: 78%;
+    display: flex;
+  }
+  .form {
+    width: 100%;
+    padding-right: 80px;
+    padding-left: 40px;
+    margin-top: 0;
+  }
+  .colWrapper {
+    width: 110%;
+  }
+  .textareaWrapper {
+    width: 100%;
+  }
+  .textarea {
+    width: 98%;
+    margin: 0;
+  }
+  .submitButton {
+    margin-right: 10px;
+  }
+}
 
 /* Laptops */
 

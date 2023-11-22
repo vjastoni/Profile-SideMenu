@@ -82,8 +82,11 @@
 
 /* Laptops large */
 @media only screen and (min-width: 1367px) and (max-width: 1440px) {
+  .profile-nav {
+    padding: 4px;
+  }
   .logoutButton {
-    margin-bottom: 2%;
+    margin-bottom: 5%;
   }
 }
 
