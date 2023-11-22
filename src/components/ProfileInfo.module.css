@@ -82,7 +82,7 @@
 @media only screen and (min-width: 1000px) and (max-width: 1366px) {
   .profileContainer {
     margin-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
 }
 /* Tablet */
