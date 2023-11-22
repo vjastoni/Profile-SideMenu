@@ -143,13 +143,22 @@
 @media only screen and (max-width: 768px) {
   .formed {
     width: 85vw;
+    padding-left: 20px;
+    padding-right: 120px;
+    gap: 70px;
+  }
+  .firstCol {
+    width: 50%;
     padding-left: 0;
   }
   .addressContainer h1 {
     margin: 0;
   }
   .secondCol {
-    width: 60%;
+    width: 50%;
+  }
+  .saveButton {
+    margin-right: 0;
   }
 }
 
@@ -164,6 +173,7 @@
   .formed {
     flex-direction: column;
     padding: 10px;
+    gap: 0;
   }
   .firstCol {
     height: 255px;

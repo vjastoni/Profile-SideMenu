@@ -153,6 +153,7 @@ select {
     width: 98%;
     margin: 0;
   }
+
   .submitButton {
     margin-right: 10px;
   }
@@ -177,7 +178,7 @@ select {
     gap: 10px;
   }
   .textarea {
-    width: 98%;
+    width: 600px;
     margin: 0;
   }
   .feedback {
